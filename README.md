@@ -71,7 +71,7 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 | Gradient Boosting   | ~0.87          |
 
 
-
+<img width="687" alt="Image" src="https://github.com/user-attachments/assets/9ffece01-f952-4aa4-8534-51e2f30e5d76" />
 ---
 
 ## 📋 Conclusions
