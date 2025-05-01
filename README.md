@@ -12,7 +12,7 @@ This repository holds an attempt to predict customer churn using data from the K
 
 The task, as defined by the Kaggle challenge, is to predict whether a customer will exit a bank based on their demographic and account information. 
 I approached this as a binary classification task using standard machine learning models (Logistic Regression, Random Forest, Gradient Boosting).
-My best model Gradient Boosting achieved a validation score of around 87%.
+My best model Gradient Boosting achieved a AUC score of around 89%.
 
 ---
 
@@ -57,6 +57,7 @@ My best model Gradient Boosting achieved a validation score of around 87%.
     * Logistic Regression.
     * Random Forest Classifier.
     * Gradient Boosting Classifier.
+* **Metric**: AUC.
 
 ---
 
@@ -73,9 +74,9 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 
 | Model               | Validation AUC |
 |---------------------|----------------|
-| Logistic Regression | ~0.84          |
-| Random Forest       | ~0.86          |
-| Gradient Boosting   | ~0.87          |
+| Logistic Regression | ~0.82          |
+| Random Forest       | ~0.87          |
+| Gradient Boosting   | ~0.89          |
 
 
 <img width="687" alt="Image" src="https://github.com/user-attachments/assets/9ffece01-f952-4aa4-8534-51e2f30e5d76" />
@@ -87,7 +88,7 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 
 * Gradient Boosting performed best overall.
 * Random Forest was a close second.
-* Logistic Regression was decent but simpler and less powerful by a snall margin.
+* Logistic Regression was decent but simpler and less powerful.
 
 ---
 
