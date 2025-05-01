@@ -94,7 +94,7 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 
 1. Install required packages: `!pip install pandas, numpy, scikit-learn, matplotlib `  
 2. Download `train.csv` and `test.csv` from [Kaggle Playground S4E1](https://www.kaggle.com/competitions/playground-series-s4e1)  
-3. Open the notebook `churn_prediction.ipynb`  
+3. Open the notebook `churned_prediction.ipynb`  
 4. Run all cells from top to bottom.  
 5. The notebook saves `cleaned_train.csv` and generates `submission.csv` for Kaggle.  
 
@@ -104,7 +104,7 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 
 | File              | Description                                           |
 |-------------------|-------------------------------------------------------|
-| `churn_prediction.ipynb` | Main notebook with all steps: preprocessing, training, evaluation, and submission |
+| `churned_prediction.ipynb` | Main notebook with all steps: preprocessing, training, evaluation, and submission |
 | `cleaned_train.csv`      | Scaled and encoded training data used for modeling |
 | `submission.csv`         | Final submission file for Kaggle leaderboard     |
 
