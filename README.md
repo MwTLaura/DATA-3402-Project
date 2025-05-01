@@ -4,59 +4,61 @@
 
 ## 📌 One Sentence Summary
 
-This notebook predicts customer churn using data from the [Kaggle Playground Series - Season 4, Episode 1](https://www.kaggle.com/competitions/playground-series-s4e1).
+This repository holds an attempt to predict customer churn using data from the Kaggle [Kaggle Playground Series - Season 4, Episode 1](https://www.kaggle.com/competitions/playground-series-s4e1).
 
 ---
 
 ## 📋 Overview
 
-The task is to predict whether a customer will leave a bank based on their personal and account details.  
-We approach this as a binary classification problem using Logistic Regression, Random Forest, and Gradient Boosting models.  
-The best model (Gradient Boosting) achieved a validation AUC of ~87%.
+The task, as defined by the Kaggle challenge, is to predict whether a customer will exit a bank based on their demographic and account information. 
+I approached this as a binary classification task using standard machine learning models (Logistic Regression, Random Forest, Gradient Boosting).
+My best model Gradient Boosting achieved a validation score of around 87%.
 
 ---
 
 ## 📂 Data
 
-- CSV files from Kaggle (train.csv and test.csv)
-- 165,034 training samples
-- Features include credit score, age, tenure, balance, etc.
-- Target column: `Exited` (0 = stayed, 1 = churned)
+* **Type**: CSV file with customer features and binary churn flag (Exited).
+* **Size**: 165,034 samples for training.
+* **Train/Validation/Test Split**:
+    * 60% training.
+    * 20% validation.
+    * 20% testing.
 
 ---
 
 ## 🛠️ Preprocessing
 
-- Dropped: `id`, `CustomerId`, `Surname`
-- Scaled numerical features using StandardScaler
-- One-hot encoded `Geography` and `Gender`
-- No missing or duplicate values
+- **Dropped**: `id`, `CustomerId`, `Surname`.
+- Scaled numerical features using **StandardScaler**.
+- **One-hot** encoded `Geography` and `Gender`.
+- No missing or duplicate values.
 
 ---
 
 ## 📊 Data Visualization
 
-- Histograms for all numerical and categorical features
-- Compared churn vs non-churn distributions
-- Key predictive features: `Age`, `IsActiveMember`, `NumOfProducts`, `Geography`
+
 
 ---
 
 ## 🎯 Problem Formulation
 
-- **Input**: Cleaned customer features
-- **Output**: Churn flag (Exited)
-- **Models**: Logistic Regression, Random Forest, Gradient Boosting
-- **Metric**: Accuracy Score
+* **Input**: Cleaned and scaled customer feature matrix.
+* **Output**: Churn flag (Exited: 0 = stayed, 1 = exited).
+* **Models**:
+    * Logistic Regression.
+    * Random Forest Classifier.
+    * Gradient Boosting Classifier.
 
 ---
 
 ## 🏋️ Training
 
-- Python with scikit-learn
-- Training on standard laptop (CPU)
-- No hyperparameter tuning
-- Gradient Boosting performed best overall
+* **Software**: Python 3, scikit-learn, Jupyter Notebook - Anaconda.
+* **Hardware**: Standard Mac CPU.
+* **Training Time**: A few minutes per model.
+* **Stopping Criteria**: No manual stopping needed.
 
 ---
 
@@ -74,27 +76,27 @@ The best model (Gradient Boosting) achieved a validation AUC of ~87%.
 
 ## 📋 Conclusions
 
-- Gradient Boosting was most effective
-- Simpler models like Logistic Regression performed reasonably well
-- Data quality and feature engineering were more important than algorithm choice
+* Gradient Boosting performed best overall.
+* Random Forest was a close second.
+* Logistic Regression was decent but simpler and less powerful by a snall margin.
 
 ---
 
 ## 🚀 Future Work
 
-- Try XGBoost, LightGBM, or CatBoost
-- Apply hyperparameter tuning (GridSearchCV)
-- Perform deeper feature selection and engineering.
+* Tune hyperparameters for Random Forest and Gradient Boosting.
+* Experiment with LightGBM, XGBoost, and CatBoost.
+* Perform deeper feature selection and engineering.
 
 ---
 
 ## 🔁 How to Reproduce Results
 
-1. Install required packages: `pip install pandas scikit-learn matplotlib numpy`  
+1. Install required packages: `!pip install pandas, numpy, scikit-learn, matplotlib `  
 2. Download `train.csv` and `test.csv` from [Kaggle Playground S4E1](https://www.kaggle.com/competitions/playground-series-s4e1)  
 3. Open the notebook `churn_prediction.ipynb`  
-4. Run all cells from top to bottom  
-5. The notebook saves `cleaned_train.csv` and generates `submission.csv` for Kaggle  
+4. Run all cells from top to bottom.  
+5. The notebook saves `cleaned_train.csv` and generates `submission.csv` for Kaggle.  
 
 ---
 
