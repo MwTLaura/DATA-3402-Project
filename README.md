@@ -1,3 +1,5 @@
+![UTA-DataScience-Logo](https://github.com/user-attachments/assets/fec1b411-bda5-437a-9eb8-08a018eb84ae)
+
 # 📚 Customer Churn Prediction - Playground Series S4E1
 
 ## 📌 One Sentence Summary
@@ -65,6 +67,8 @@ The best model (Gradient Boosting) achieved a validation AUC of ~87%.
 | Logistic Regression | ~0.84          |
 | Random Forest       | ~0.86          |
 | Gradient Boosting   | ~0.87          |
+
+
 
 ---
 
