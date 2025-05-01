@@ -38,6 +38,13 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 
 ## 📊 Data Visualization
 
+<img width="712" alt="Image" src="https://github.com/user-attachments/assets/3875d626-0eee-4fb7-9518-c09472ab3e61" />
+
+<img width="710" alt="Image" src="https://github.com/user-attachments/assets/f48f6dcd-2c07-48a7-a17c-9efb0a365b82" /> 
+
+<img width="709" alt="Image" src="https://github.com/user-attachments/assets/79891be5-1a84-425c-b3ca-3dba175c1189" />
+
+<img width="705" alt="Image" src="https://github.com/user-attachments/assets/42c4c4ef-bb1f-48a1-827f-d619aa6be31c" />
 
 
 ---
@@ -72,6 +79,8 @@ My best model Gradient Boosting achieved a validation score of around 87%.
 
 
 <img width="687" alt="Image" src="https://github.com/user-attachments/assets/9ffece01-f952-4aa4-8534-51e2f30e5d76" />
+
+
 ---
 
 ## 📋 Conclusions
