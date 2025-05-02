@@ -39,11 +39,11 @@ My best-performing model, Gradient Boosting, achieved an AUC of approximately 89
 
 ## 📊 Data Visualization
 
-**Categorical Features**
+### **Categorical Features**
 
 <img width="712" alt="Image" src="https://github.com/user-attachments/assets/3875d626-0eee-4fb7-9518-c09472ab3e61" />
 
-**Important Features Scaled**
+### **Important Numercial Features Normalized**
 
 <img width="1001" alt="Image" src="https://github.com/user-attachments/assets/dc75f5f5-cbd5-4591-8a8e-849c2529057e" />
 
