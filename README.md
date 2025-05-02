@@ -20,7 +20,7 @@ My best-performing model, Gradient Boosting, achieved an AUC of approximately 89
 ## 📂 Data
 
 * **Type**: CSV file with customer features and binary churn flag (Exited).
-* **Size**: 165,034 samples for training.
+* **Size**: 165,034 rows and 13 columns (features) from the Train file.
 * **Train/Validation/Test Split**:
     * 60% training.
     * 20% validation.
