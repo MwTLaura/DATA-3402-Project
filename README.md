@@ -122,5 +122,5 @@ My best model Gradient Boosting achieved a AUC score of around 89%.
 
 ## 📚 Citations
 
-- Kaggle Playground Series S4E1 Challenge  
-- scikit-learn documentation  
+- Kaggle Playground Series S4E1 Challenge: https://www.kaggle.com/competitions/playground-series-s4e1  
+- scikit-learn documentation: https://scikit-learn.org/stable/
