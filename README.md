@@ -11,11 +11,8 @@ This repository holds an attempt to predict customer churn using data from the K
 ## 📋 Overview
 
 This project focuses on predicting customer churn based on structured banking data, as defined in the Kaggle Playground Series Season 4, Episode 1 competition. The goal is to determine whether a customer is likely to exit the bank based on their demographic and account-related features.
-
 The problem is approached as a binary classification task, where the target variable indicates whether the customer exited (1) or not (0). The dataset includes a mix of numerical and categorical features such as credit score, geography, age, balance, and account activity status.
-
 The full machine learning pipeline was implemented in a single notebook. It includes data cleaning, feature scaling, one-hot encoding, data visualization, model training, and evaluation using multiple classifiers (Logistic Regression, Random Forest, Gradient Boosting). ROC AUC was used as the main evaluation metric, consistent with the competition’s scoring method.
-
 My best-performing model, Gradient Boosting, achieved an AUC of approximately 89% and an accuracy score of around 87%. This suggests good generalization and strong model performance relative to baseline approaches.
 
 ---
@@ -42,13 +39,13 @@ My best-performing model, Gradient Boosting, achieved an AUC of approximately 89
 
 ## 📊 Data Visualization
 
+**Categorical Features**
+
 <img width="712" alt="Image" src="https://github.com/user-attachments/assets/3875d626-0eee-4fb7-9518-c09472ab3e61" />
 
-<img width="710" alt="Image" src="https://github.com/user-attachments/assets/f48f6dcd-2c07-48a7-a17c-9efb0a365b82" /> 
+**Important Features Scaled**
 
-<img width="709" alt="Image" src="https://github.com/user-attachments/assets/79891be5-1a84-425c-b3ca-3dba175c1189" />
-
-<img width="705" alt="Image" src="https://github.com/user-attachments/assets/42c4c4ef-bb1f-48a1-827f-d619aa6be31c" />
+<img width="1001" alt="Image" src="https://github.com/user-attachments/assets/dc75f5f5-cbd5-4591-8a8e-849c2529057e" />
 
 
 ---
