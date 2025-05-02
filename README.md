@@ -106,11 +106,11 @@ My best-performing model, Gradient Boosting, achieved an AUC of approximately 89
 
 ## 🔁 How to Reproduce Results
 
-1. Install required packages: `!pip install pandas, numpy, scikit-learn, matplotlib `  
-2. Download `train.csv` and `test.csv` from [Kaggle Playground S4E1](https://www.kaggle.com/competitions/playground-series-s4e1)  
-3. Open the notebook `churned_prediction.ipynb`  
-4. Run all cells from top to bottom.  
-5. The notebook saves `cleaned_train.csv` and generates `submission.csv` for Kaggle.  
+1.  Download `train.csv` and `test.csv` from [Kaggle Playground S4E1](https://www.kaggle.com/competitions/playground-series-s4e1)  
+3. Open the notebook `churned_prediction.ipynb`
+4. Install required packages: `!pip install pandas, numpy, scikit-learn, matplotlib `  
+5. Run all cells from top to bottom.  
+6. The notebook saves `cleaned_train.csv` and generates `submission.csv` for Kaggle.  
 
 ---
 
