@@ -10,9 +10,13 @@ This repository holds an attempt to predict customer churn using data from the K
 
 ## 📋 Overview
 
-The task, as defined by the Kaggle challenge, is to predict whether a customer will exit a bank based on their demographic and account information. 
-I approached this as a binary classification task using standard machine learning models (Logistic Regression, Random Forest, Gradient Boosting).
-My best model Gradient Boosting achieved a AUC score of around 89%.
+This project focuses on predicting customer churn based on structured banking data, as defined in the Kaggle Playground Series Season 4, Episode 1 competition. The goal is to determine whether a customer is likely to exit the bank based on their demographic and account-related features.
+
+The problem is approached as a binary classification task, where the target variable indicates whether the customer exited (1) or not (0). The dataset includes a mix of numerical and categorical features such as credit score, geography, age, balance, and account activity status.
+
+The full machine learning pipeline was implemented in a single notebook. It includes data cleaning, feature scaling, one-hot encoding, data visualization, model training, and evaluation using multiple classifiers (Logistic Regression, Random Forest, Gradient Boosting). ROC AUC was used as the main evaluation metric, consistent with the competition’s scoring method.
+
+My best-performing model, Gradient Boosting, achieved an AUC of approximately 89% and an accuracy score of around 87%. This suggests good generalization and strong model performance relative to baseline approaches.
 
 ---
 
